@@ -5,7 +5,8 @@ git clone https://github.com/Gruppe-XVI/husbyen-bergen.git
 ```
 Dette vil laste ned prosjektet i en ny mappe som vil hete `husbyen-bergen`. Åpn denne i teksteditoren din så er du basically komt i gang.
 
-### Git Info 
+### Git Info (konsoll)
+*Dere kan også bruke git desktop, men jeg er ikke godt kjent med det. Det er samme prinsipp i bunn og grunn.*
 - `git pull` før du begynner å jobbe
 - `git add *` for å legge til endringene dine til commit
 - `git commit -m "[prefix]: [melding]"` for å lage commit og lage en melding
