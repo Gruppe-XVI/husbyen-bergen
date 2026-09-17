@@ -8,8 +8,28 @@
     <!-- <link href="./assets/main.css" rel="stylesheet"> -->
 </head>
 <body>
+    
     <header>
-        <nav></nav>
+        <nav>
+            <div>
+                <a href="./hjem">Hjem</a>
+                <a href="./om-oss.html">Om Oss</a>
+                <a href="./oppussing.html">Oppussing</a>
+            </div>
+            <div></div>
+            <div></div>
+        </nav>
+        <style>
+            nav {
+                display: flex;
+            }
+        
+            nav > div {
+                width: 1/3;
+                display: flex;
+                gap: 2vw;
+            }
+        </style>
     </header>
     <div>
         <img 
@@ -20,19 +40,38 @@
         <h1>Bolig i Bergen</h1>
     </div>
 
-    <div>
-        <h2>Vi hjelper deg med bolig!</h2>
-        <p>yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap </p>
-        <p>gå til bla bla for yap og masse bla</p>
+    <div style="width: 40%; min-width: 400px;">
+        <div>
+            <h2>Vi hjelper deg med bolig!</h2>
+            <p>Vi i BiB er her for å hjelpe <span style="font-weight: bold; font-style: italic;">deg</span>. Vi samler all info og ressurser for deg som bor og skal flytte til Bergen! BiB er også åpen for konsultasjoner om du ønsker oss å hjelpe deg med å finne ressurser og info egnet deg og din situasjon. Vi tilbyr alt ifra oppussingshjelp til boligpriser.</p>
+            <p>For mer informasjon angående alt besøk <a href="./om-oss">om oss</a> siden vår!</p>
+        </div>
+    
+        <div>
+            <h2>Hvorfor oss?</h2>
+            <p>Vi har hjulpet Bergensere og kunder siden 18. september 2026. Vi står trofast på våre verdier at alle er velkomne i denne vakre byen og vi tilbyr hjelpen som trengs! Siden 2026 har vi hatt 4 kunder totalt som har funnet seg boliger, og er meget fornøyde. Vi ønsker å tilby deg den samme hjelpen for å oppnå dine drømmer.</p>
+        </div>
     </div>
 
-    <div>
-        <h2>Hvorfor oss?</h2>
-        <p>yap yap yap yap yap vi er best yap yap yap yap yap yap yap yap yap yap yap </p>
-    </div>
-
-    <footer>
-
+    <footer style="background-color: gray; display: flex;">
+        <div>
+            <p>Kontakt oss!</p>
+            <p>Inndalsveien 28, 5063 Bergen</p>
+            <p>bolig@iBergen.com</p>
+            <p>(08:00 - 15:00, man-fre) <br> +47 123 45 678 </p>
+        </div>
+        <div><p>© Bolig i Bergen AS</p></div>
+        <div></div>
     </footer>
+    <style>
+        footer {
+            display: flex;
+            gap: 1vw;
+            color: whitesmoke;
+        }
+        footer > div {
+            width: 1/3;
+        }
+    </style>
 </body>
 </html>
