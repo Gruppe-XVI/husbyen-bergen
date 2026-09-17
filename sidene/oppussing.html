@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Oppussing</title>
+
+        <style>
+            h1 {
+                font-size: 35px;
+                text-align: center;
+            }
+
+            .tekst p {
+                text-align: center; 
+                font-size: 20px;
+            }
+            
+            .bilder {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+            }
+            
+            .kjøkken, .bad {
+                width: 400px;
+                height: 300px;
+            }
+            
+            .kjøkken img, .bad img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            .tabell-container {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                margin-bottom: 30px;
+            }
+
+            .tabell {
+                width: 500px;
+            }
+            
+            .tabell a href {
+                text-align: center;
+                color: black;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                height: 350px;
+            }
+
+            th {
+                text-align: left;
+                padding: 7px 14px;
+                border: 4px solid purple;
+                background-color: beige;
+            }
+
+            td {
+                background-color: aliceblue;
+                padding: 7px 14px;
+                border: 3px solid purple;
+            }
+
+            /* Parkett og vindu ved siden av hverandre */
+            .kort-container {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                margin-top: 30px;
+            }
+
+            .parkett, .vindu {
+                background-color: lightyellow;
+                border-radius: 12px;
+                border: double light;
+                box-shadow: 2px 4px 8px purple;
+                width: 400px;
+                display: flex;
+                align-items: center;
+                padding: 15px;
+            }
+
+            .parkett-liste, .takvindu {
+                width: 50%;
+            }
+
+            .parkett h3, .vindu h3 {
+                margin: 20px 0;
+                text-align: center;
+            }
+
+            .parkett li, .vindu li {
+                padding: 5px 0;
+                color: black;
+                text-align: start;
+            }
+
+            .parkett img, .vindu img {
+                width: 50%;
+                height: 220px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <a href="om-oss.html">
+            kun figur av huset
+        </a>
+
+        <h1>Oppussing</h1>
+        <div class="tekst">
+            <p> Oppussing av bolig er viktig av bade praktiske, okonomiske og trivselsmessige grunner. <br> Ved oppussing av rom som kjokken og bad, samt ny parkett eller skift av vinduer er det mulig </br> a tilpasse boligen etter egne behov og onsker. Riktig oppussing kan oke boligens markedsverdi <br> og dermed beskytte investeringen. </p>
+        </div>
+
+        <div class="bilder">
+            <div class="kjøkken">
+                <img src="../assets/kjokken.png">
+            </div>
+            <div class="bad">
+                <img src="../assets/bad.png">
+            </div>
+        </div>
+        <div class="tabell-container">
+
+            <div class="tabell">
+                <a href="om-oss.html">
+                    Kjokken
+                </a>
+
+                <table>
+                    <tr>
+                        <th>Kategori</th>
+                        <th>Beskrivelse</th>
+                        <th>Prisanslag</th>
+                    </tr>
+
+                    <tr>
+                        <td>Enkel oppussing</td>
+                        <td>Dette inkluderer vanligvis standard bytting av fronter, håndtak og benkeplate</td>
+                        <td>30 000kr - 80 000kr</td>
+                    </tr>
+
+                    <tr>
+                        <td>Middels oppgradering</td>
+                        <td>Dette omfatter ny kjøkkeninnredning, samt hvitevarer og oppgradering av overflater</td>
+                        <td>80 000kr - 200 000kr</td>
+                    </tr>
+
+                    <tr>
+                        <td>Totalrenovering</td>
+                        <td>Dette betyr et komplett nytt kjøkken med flytting av rør og strøm, riving og nytt gulv</td>
+                        <td>Fra 300 000kr</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="tabell">
+                <h2>Bad</h2>
+
+                <table>
+                    <tr>
+                        <th>Kategori</th>
+                        <th>Beskrivelse</th>
+                        <th>Prisanslag</th>
+                    </tr>
+
+                    <tr>
+                        <td>Enkel oppussing</td>
+                        <td>Dette tar for seg overflater og standard innredning</td>
+                        <td>30 000kr - 100 000kr</td>
+                    </tr>
+
+                    <tr>
+                        <td>Middels oppussing</td>
+                        <td>Dette forutsetter en intakt membran, men inkluderer utskiftning av alt sanitærutstyr</td>
+                        <td>100 000kr - 250 000kr</td>
+                    </tr>
+
+                    <tr>
+                        <td>Totalrenovering</td>
+                        <td>Dette inkluderer elementene i en enkel oppussing, samt utskifting av rør, sluk og membran</td>
+                        <td>Fra 250 000kr</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+
+        <!-- Parkett og Vindu -->
+        <div class="kort-container">
+
+            <div class="parkett">
+
+                <div class="parkett-liste">
+                    <h3>Parkett</h3>
+
+                    <ul>
+                        <li>1 - stavs</li>
+                        <li>2 - stavs</li>
+                        <li>3 - stavs</li>
+                        <li>Fiskebensparkett</li>
+                        <li>Chavron parkett</li>
+                    </ul>
+                </div>
+
+                <img src="../assets/gulv.png.png">
+
+            </div>
+
+
+            <div class="vindu">
+
+                <div class="takvindu">
+                    <h3>Vindu</h3>
+
+                    <ul>
+                        <li>Karmfast</li>
+                        <li>Sidehengslet</li>
+                        <li>Innadsvingende</li>
+                        <li>Toppsving</li>
+                        <li>Takvindu</li>
+                    </ul>
+            </div>
+                <img src="../assets/vindu.jpeg">
+
+        </div>
+
+    </body>
+</html>
