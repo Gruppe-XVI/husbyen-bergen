@@ -2,6 +2,7 @@
 <html>
     <head> 
         <title>Oppussing</title>
+        <script src=" https://cdn.jsdelivr.net/npm/iconify-icon@3.0.2/dist/iconify-icon.min.js "></script>
 
         <style>
             nav {
@@ -149,10 +150,29 @@
     </head>
 
     <body>
-
-        <a href="hjem.html">
-            Hjem
-        </a>
+        <header>
+            <nav>
+                <div>
+                    <a href="./hjem.html"><iconify-icon icon="mdi:home"/></a>
+                    <a href="./om-oss.html">Om Oss</a>
+                    <a href="./oppussing.html">Oppussing</a>
+                    <a href="./vedlikehold.html">Vedlikehold</a>
+                </div>
+                <div></div>
+                <div></div>
+            </nav>
+            <style>
+                nav {
+                    display: flex;
+                }
+            
+                nav > div {
+                    width: 1/3;
+                    display: flex;
+                    gap: 2vw;
+                }
+            </style>
+        </header>
 
         <h1>Oppussing</h1>
         <div class="tekst">

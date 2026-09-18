@@ -8,18 +8,40 @@
             border-collapse: collapse;
         }
     </style>
+    <script src=" https://cdn.jsdelivr.net/npm/iconify-icon@3.0.2/dist/iconify-icon.min.js "></script>
 
 </head>
 <body>
+    <header>
+        <nav>
+            <div>
+                <a href="./hjem.html"><iconify-icon icon="mdi:home"/></a>
+                <a href="./om-oss.html">Om Oss</a>
+                <a href="./oppussing.html">Oppussing</a>
+                <a href="./vedlikehold.html">Vedlikehold</a>
+            </div>
+            <div></div>
+            <div></div>
+        </nav>
+        <style>
+            nav {
+                display: flex;
+            }
+        
+            nav > div {
+                width: 1/3;
+                display: flex;
+                gap: 2vw;
+            }
+        </style>
+    </header>
 
     <!-- Sentrerer alt på siden-->
     <div style="position:absolute; margin-left: 25%; width: 50%;">
         
 
         <!-- Banner, overskrift og intro -->
-        <div>
-            <a href="hjem.html">Tilbake til Hjem</a>
-            
+        <div>            
             <img src="../assets/Bolig-i-Bergen-logo-Banner.png" style="width: 100%; height: auto; display: block;">
 
             <div>
